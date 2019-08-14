@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+    <name>Daffodil_Advancenewsletter</name>
+    <version>1.0.0.1</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Customize Newsletter</summary>
+    <description>Newsletter+ extension is used to customize default newsletter. By default only Email field is present in newsletter subscription. But with the help of Newsletter+ extension you can extend fields. It includes following fields:-&#xD;
+Prefix, First Name, Last Name, Email Id, Confirm Email Id, Company, Address, State, City, Country, Fax, Phone Number, Zip Code. &#xD;
+&#xD;
+You can easily enable or disable these fields from admin.&#xD;
+If there is a need of required fields than u can select any field as required from admin.&#xD;
+</description>
+    <notes>First Release</notes>
+    <authors><author><name>Daffodil Software</name><user>daffodilsw</user><email>ashish.mittal@daffodilsw.com</email></author></authors>
+    <date>2013-01-16</date>
+    <time>06:18:56</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Daffodil_Advancenewsletter.xml" hash="849322343df8002ca935fa7f4aa59cf5"/></dir></target><target name="magelocal"><dir name="Daffodil"><dir name="Advancenewsletter"><dir name="Block"><file name="Grid.php" hash="1fb32a88eb6251a7ee47ebcaa34d7894"/></dir><dir name="controllers"><file name="SubscriberController.php" hash="8a8b2630bc238e935b0f504e5ea0c6ae"/><file name="SubscriberController.php~" hash="3ec25e1a260057ac4efceeb9cd64dc92"/></dir><dir name="etc"><file name="config.xml" hash="d1564368ac5b35afe4be5b852831a7d8"/><file name="config.xml~" hash="f2aff9734e3c6852e3a58f668432a966"/><file name="system.xml" hash="f22d086e88c71a9eb33bebeef8ee5997"/><file name="system.xml~" hash="5dcf947ab6d3f8bf4fb6d644d98135ec"/></dir><dir name="Helper"><file name="Data.php" hash="fbe1d7a3219292fc3fa2d4c722478a88"/></dir><dir name="Model"><dir name="Resource"><dir name="Mysql4"><file name="Setup.php" hash="b1bb63824aa1c29e96768a7b809850b9"/></dir></dir><file name="Subscriber.php" hash="e618032bacb05cfa4c4bc427cd674292"/></dir><dir name="sql"><dir name="advancenewsletter_setup"><file name="mysql4-install-0.1.0.php" hash="c60aa393762ab74da773801c243f4444"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="advancenewsletter.xml" hash="df992051b104beb061e6cea8d8862065"/></dir><dir name="template"><dir name="advancenewsletter"><file name="subscriber.phtml" hash="32db3c768d185d9dc9fdabc83f76df50"/><file name="subscriber.phtml~" hash="bc9d455980adf25ea03966ab763ad054"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="css"><file name="advancenewsletter.css" hash="f559bf0c04edea7de0b05f650d80acc5"/></dir></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="advancenewsletter"><file name="validation.js" hash="61fd0f0e1041fd92798a61a33bcd36d4"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

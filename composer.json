@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Daffodil_Advancenewsletter",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "Customize Newsletter",
+    "authors": [
+    {
+        "name": "Daffodil Software",
+        "email": "ashish.mittal@daffodilsw.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
